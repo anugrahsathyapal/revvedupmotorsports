@@ -1,0 +1,289 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+
+#naav{
+    background-image: url(https://wallpapercave.com/wp/wp9001973.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: top center; 
+
+    
+   
+
+  
+}
+
+.logo:hover{
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 10px 10px 15px white;
+
+
+
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0);
+    font-family: "Skranji", system-ui;
+}
+
+
+
+
+.navbar .nav-link {
+    color: white;
+    font-weight: 600;
+    
+    &:hover{
+        color: white; 
+        background-image: url(./media/tread.png);
+        background-size: cover ;
+        background-position: center;
+      
+    }
+   
+
+
+}
+
+
+#events{
+    background-color: black;
+}
+
+#events .card {
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+#events .card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 10px 20px rgb(103, 10, 10);
+    cursor: pointer;
+}
+
+#events {
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+}
+
+
+#events h1 {
+    display: inline-block;
+    box-shadow: 10px 10px 15px red;
+    border-radius: 10px;
+    
+}
+
+
+
+#fanzones {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#fanzones h1 {
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 10px 10px 15px red;
+}
+
+#fanzones img {
+    padding: 5px;    
+    border-radius: 20px;
+    height: 200px;
+    width: 400px;
+    border: 1px solid red;
+    transition: transform ease-in-out 0.5s;
+    position: relative;
+   
+  
+}
+
+#fanzones .subfz {
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+#fanzones .imgoverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.553); 
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 20px; 
+}
+
+#fanzones .subfz:hover .imgoverlay {
+    opacity: 1;
+   
+}
+
+#merch{
+    background-color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#merch h1{
+    display: inline-block;
+   box-shadow: 10px 10px 15px red;
+   border-radius:10px ;
+}
+
+.carousel-item img{
+    height: 400px;
+    width: 500px;
+    border-radius: 50px;
+    border: solid 1px red;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fetext{
+    font-family: 'Times New Roman', Times, serif;
+
+    text-align: center;
+
+
+  }
+
+  #feature h1{
+    display: inline-block;
+   box-shadow: 10px 10px 15px red;
+   border-radius:10px ;
+}
+
+
+  #feature{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+
+
+  #gallery{
+    background-color: black;
+    text-align: center;
+
+  }
+  #gallery h1{
+
+    display: inline-block;
+    box-shadow: 10px 10px 15px red;
+    border-radius:10px ;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+
+
+  .gal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 200px); 
+    gap: 10px;
+ 
+  }
+
+  .subgal {
+    position: relative;
+    border-radius: 20px;
+    border: solid 2px red;
+    padding: 5px;
+    overflow: hidden;
+  }
+  
+  .subgal img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 15px; 
+    transition: transform 0.3s ease; 
+  }
+  
+  .subgal img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+
+  
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+footer {
+    background-color: darkblue;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+    
+    
+    
+  }
+
+ 
+  
+  .fab:hover{
+    color: red;
+    
+  }
+  
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
